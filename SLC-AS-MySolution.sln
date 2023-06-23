@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Internal", "Internal", "{EC95A07A-650A-4054-B944-929FA7E6E812}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\.editorconfig = Internal\.editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{7505651B-FDDD-47D6-BBED-BEF3F90F831E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dlls", "Dlls", "{BD720A39-2693-4579-BDDE-FE1F9796C3D5}"
+	ProjectSection(SolutionItems) = preProject
+		Dlls\ABOUT.md = Dlls\ABOUT.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompanionFiles", "CompanionFiles", "{575C8B00-02B3-47F1-BBB4-ADADA44945C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Skyline DataMiner", "Skyline DataMiner", "{DC69F546-ED5A-4F0A-A979-53882E2E2BFA}"
+	ProjectSection(SolutionItems) = preProject
+		CompanionFiles\Skyline DataMiner\AboutThisFolder.md = CompanionFiles\Skyline DataMiner\AboutThisFolder.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C085CDFC-57B4-4450-A930-370578EE9528}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ABOUT.md = Documentation\ABOUT.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F8938D60-51A0-4880-9CFC-19C66379BB5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code Analysis", "Code Analysis", "{5209E20A-2DAD-498A-8058-B014C74ED60F}"
+	ProjectSection(SolutionItems) = preProject
+		Internal\Code Analysis\qaction-debug.ruleset = Internal\Code Analysis\qaction-debug.ruleset
+		Internal\Code Analysis\qaction-release.ruleset = Internal\Code Analysis\qaction-release.ruleset
+		Internal\Code Analysis\stylecop.json = Internal\Code Analysis\stylecop.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SLC-AS-MyAutomationScript", "SLC-AS-MyAutomationScript", "{D7787A9F-9599-4231-9EC6-C52A282A52D4}"
+	ProjectSection(SolutionItems) = preProject
+		SLC-AS-MyAutomationScript.xml = SLC-AS-MyAutomationScript.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Actions", "Actions", "{F9D211F6-102C-4682-9608-95EA615A1765}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SLC-AS-MyAutomationScript_1", "SLC-AS-MyAutomationScript_1\SLC-AS-MyAutomationScript_1.csproj", "{A5E30D97-84F6-415F-9E62-22AADA2F6D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5E30D97-84F6-415F-9E62-22AADA2F6D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E30D97-84F6-415F-9E62-22AADA2F6D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E30D97-84F6-415F-9E62-22AADA2F6D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E30D97-84F6-415F-9E62-22AADA2F6D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC69F546-ED5A-4F0A-A979-53882E2E2BFA} = {575C8B00-02B3-47F1-BBB4-ADADA44945C3}
+		{5209E20A-2DAD-498A-8058-B014C74ED60F} = {EC95A07A-650A-4054-B944-929FA7E6E812}
+		{D7787A9F-9599-4231-9EC6-C52A282A52D4} = {7505651B-FDDD-47D6-BBED-BEF3F90F831E}
+		{F9D211F6-102C-4682-9608-95EA615A1765} = {D7787A9F-9599-4231-9EC6-C52A282A52D4}
+		{A5E30D97-84F6-415F-9E62-22AADA2F6D17} = {F9D211F6-102C-4682-9608-95EA615A1765}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {131ACFB5-C82C-4AC0-8AFC-501E09386696}
+	EndGlobalSection
+EndGlobal
